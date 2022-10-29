@@ -2,7 +2,7 @@ let
   pkgs = import <nixpkgs> {};
 
 in pkgs.mkShell rec {
-  name = "myEnv";
+  name = "Test Iced";
   buildInputs = with pkgs; [
     xorg.libX11 pkg-config
   ];
